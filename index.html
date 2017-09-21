@@ -2,13 +2,13 @@
 <html>
 <head>
     <!-- The title is the name of our website, what shows up in the browser tab as the name. -->
-    <!-- Fill in your title here -->
-    <title></title>
+    <!-- Fill in your title here --> 
+    <title>Put title here I guess...</title>
 
     <!-- A link tag is what's used to pull in outside resources, otherwise known as assets. Assets include CSS files (stylesheets), font files (i.e. Google Fonts), icon sets. -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Link to Google Fonts goes here -->
+    <!-- Link to Google Fonts goes here --> https://fonts.google.com/
 </head>
 <body>
     <!-- Build your navigation bar here -->
@@ -16,10 +16,10 @@
     </nav>
     <!-- Build your content here -->
     <div id="content">
-        <!-- Example 1: Add a paragraph. Then within it, add a span with an id of "liked-item". Put something you like within the span. -->
-        <!-- Challenge 1: Add a button with an id of "cool-button" -->
-        <!-- Challenge 2: Add a paragraph. Inside that paragraph, add a span with an id of "grow-text" -->
-        <!-- Challenge 3: add 2 buttons, one with a + and one with a -. Assign them ids of "plus" and "minus", respectively.-->
+        <!-- Example 1: Add a paragraph. Then within it, add a span with an id of "liked-item". Put something you like within the span. --> <p>I like <span id="liked-item">animals</span></p>
+        <!-- Challenge 1: Add a button with an id of "cool-button" --> <button <span id="cool-button">>whoo</button>
+        <!-- Challenge 2: Add a paragraph. Inside that paragraph, add a span with an id of "grow-text" --> <p<span id="grow-text">>Big text!</p>
+        <!-- Challenge 3: add 2 buttons, one with a + and one with a -. Assign them ids of "plus" and "minus", respectively.--> <button><span id="plus">+</span></button> <button><span id="minus">-</span></button>
         <!-- Challenge 4: Add 2 buttons, one with Play and another with Pause. Assign them ids of "play" and "pause", respectively. -->
         <!-- Challenge 5: Add an unordered list <ul> with an id of "fly-list" -->
         <!-- Challenge 6: Add a paragraph with a span. Inside that span (which has an id of "bold-text"), write something that you think should be emphasized :D -->
@@ -42,6 +42,13 @@
     <!-- Hint: we don't want the font size to decrease past 0. We should limit it to 1px as the smallest possible font size. An if statement might be handy.-->
     <!-- Hint: The nice thing about Javascript is that you can save functions as variables. Since hovering and clicking the plus button do the same thing, is it possible consolidate the code? -->
     <!-- Hint: Remember the parameters to hover? The first function, since we want it to increase in font size every second, setInterval might be helpful. Once we no longer hover over the text, we want this growing to stop. clearInterval might be useful. -->
+    <script>
+        var itemsLiked = ['cats', 'dogs', "milk", "CS"];
+        var index = 0;
+        setInterval(function){
+           
+        }
+    </script>
     <script></script>
     <!-- Challenge 3: This Javascript snippet lets us play and pause an audio clip when we press a play and pause button -->
     <!-- Hint: You'll need to add an audio tag with a src attribute to an MP3 file of your choosing. Google search: HTML5 Audio API -->
